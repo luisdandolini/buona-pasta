@@ -1,0 +1,52 @@
+.container-information {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 1rem;
+  background-image: url('../../../assets/images/madeira.jpeg');
+  height: 650px;
+  img {
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    animation: rotation 20s infinite linear;
+    @keyframes rotation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  .information-details {
+    h2 {
+      font-size: 4rem;
+      color: #FFFFFF;
+    }
+    .information-subtitle {
+      font-size: 2rem;
+      letter-spacing: 1rem;
+      line-height: 4rem;
+      margin-top: 1rem;
+      color: #FFFFFF;
+      border-bottom: 2px solid #FFFFFF;
+    }
+    .information-text {
+      font-size: 1rem;
+      letter-spacing: .5rem;
+      color: #FFFFFF;
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+    }
+    a {
+      padding: 1rem 2rem;
+      background-color: #FFC851;
+      &:hover {
+        background-color: transparent;
+        border: 2px solid #FFC851;
+        color: white;
+      }
+    }
+  }
+}
