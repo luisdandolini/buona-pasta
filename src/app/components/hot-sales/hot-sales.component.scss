@@ -1,0 +1,41 @@
+.container-hot-sales {
+  background-color: #1a1919;
+  .title {
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: .3rem;
+    font-size: 1.5rem;
+    padding-top: 4rem;
+    text-transform: uppercase;
+  }
+  .container-products {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    padding: 0 3rem;
+    .hot-sales {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      padding-bottom: 4rem;
+      img {
+        width: 189px;
+        height: 189px;
+      }
+      h2 {
+        color: #FFFFFF;
+        letter-spacing: .3rem;
+        text-transform: uppercase;
+      }
+      .type {
+        color: #FFFFFF;
+        font-size: 12px;
+        letter-spacing: .2rem;
+      }
+      .price {
+        color: #FFFFFF;
+      }
+    }
+  }
+}
