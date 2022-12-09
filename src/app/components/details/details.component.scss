@@ -1,0 +1,75 @@
+.container-details {
+  background-image: url('../../../assets/images/back_2.png');
+  height: 400px;
+  .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+  }
+  .quality-foods {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 215px;
+    img {
+      width: 90px;
+      height: 100px;
+    }
+    h2 {
+      letter-spacing: .5rem;
+      text-transform: uppercase;
+      margin: 1rem 0;
+    }
+    p {
+      font-size: 14px;
+      line-height: 2rem;
+      text-align: center;
+    }
+  }
+  .fastest-delivery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 215px;
+    img {
+      width: 90px;
+      height: 100px;
+    }
+    h2 {
+      letter-spacing: .5rem;
+      text-transform: uppercase;
+      margin: 1rem 0;
+    }
+    p {
+      font-size: 14px;
+      line-height: 2rem;
+      text-align: center;
+    }
+  }
+  .original-recipes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 215px;
+    img {
+      width: 90px;
+      height: 100px;
+    }
+    h2 {
+      letter-spacing: .5rem;
+      text-transform: uppercase;
+      margin: 1rem 0;
+    }
+    p {
+      font-size: 14px;
+      line-height: 2rem;
+      text-align: center;
+    }
+  }
+}
